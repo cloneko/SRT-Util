@@ -5,11 +5,9 @@ mb_internal_encoding('UTF-8');
 $counter = 0;
 $firstline = true;
 
-$second = -79.15;
-$input = file_get_contents('MarshmallowChallenge_TEDshort-end.srt');
+$second = 0;
+$input = file_get_contents('__FILENAME__.srt');
 
-//$second = 0;
-//$input = file_get_contents('newted.srt');
 
 $contents = explode("\r\n",$input);
 
